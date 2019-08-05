@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eventdescription"
+    android:id="@+id/observable_sview"
+    android:background="@drawable/app_background"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/appgreen">
+
+            <ImageView
+                android:id="@+id/imgscroll"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/back"
+                android:background="@drawable/back"/>
+
+            <TextView
+                android:id="@+id/evename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="17dp"
+                android:text="Event Name"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginTop="400dp"
+           >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="6dp"
+                        app:cardUseCompatPadding="true"
+                        app:contentPadding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/evtype"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_weight="3"
+                                android:text="Event Type"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/event" />
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TextView
+                        android:id="@+id/evedes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="casual"
+                        android:text="The evolution is not just confined to all that is living but to technology as well. Since the advent of machines men has constantly striven to build machines that can substitute human labor.
+The Robotics module of techSRIJAN'17 provides you a platform to bring forth new ideas and produce novel technologies in the quest to build the perfect machine.
+
+The evolution is not just confined to all that is living but to technology as well. Since the advent of machines men has constantly striven to build machines that can substitute human labor.
+The Robotics module of techSRIJAN'17 provides you a platform to bring forth new ideas and produce novel technologies in the quest to build the perfect machine.
+
+"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/brules"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:background="@drawable/button_background"
+                        android:text="Rules"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/breg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:background="@drawable/button_background"
+                        android:text="Register"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    </ScrollView>
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

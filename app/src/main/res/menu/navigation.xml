@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Event" />
+
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/workshop1"
+        android:title="WorKshop" />
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Gallery" />
+
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/profile"
+        android:title="profile" />
+
+</menu>

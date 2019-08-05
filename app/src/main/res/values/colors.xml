@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#123452</color>
+    <color name="colorPrimaryDark">#f4a426</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#f51bbf</color>
+    <color name="primary_material_dark">#61212121</color>
+    <color name="appgreen">#190025</color>
+    <color name="back_content">#56284969</color>
+
+
+
+</resources>
